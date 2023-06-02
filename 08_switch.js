@@ -14,10 +14,11 @@ function clasificarValor(valor) {
             respuesta="delta"
             break;
         default:
+            respuesta="nada"
             break;
     }
 
     return respuesta
 }
 
-console.log(clasificarValor(4)); // delta
+console.log(clasificarValor(8)); // nada
